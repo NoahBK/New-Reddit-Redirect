@@ -6,8 +6,12 @@
 // @match *://*.reddit.com/*
 // @exclude /^https?://[a-z]{2}\.reddit\.com/*
 // @exclude *out.reddit.com/*
+// @exclude *mod.reddit.com/*
+// @exclude *old.reddit.com/*
+// @exclude *chat.reddit.com/*
 // @exclude *://*.reddit.com/gallery/*
 // @exclude *://*.reddit.com/media*
+// @exclude  *://*.reddit.com/mod/*/insights
 // @run-at document-start
 // @grant        none
 // ==/UserScript==
