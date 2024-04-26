@@ -28,7 +28,3 @@ This script is confirmed to be working on Reddit as of Febuary 19th of 2024.
 * Compatible with Violentmonkey v2.12.7.
 * Compatible with Tampermonkey v4.9.
 * **Not compatible with Greasemonkey v4.9.**
-
----
-
-This repository was forked from RichKMLS's [Old Reddit Redirect](https://github.com/RichKMLS/Old-Reddit-Redirect) script.
