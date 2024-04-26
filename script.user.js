@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name New Reddit Redirect
-// @version 1.0.1
-// @description redirects you to new.reddit.com
+// @version 1.1
+// @description Redirects you to new.reddit.com
 // @author github.com/xPuls3
 // @homepage https://github.com/xPuls3/New-Reddit-Redirect
 // @supportURL https://github.com/xPuls3/New-Reddit-Redirect/issues
@@ -24,17 +24,11 @@
 // - https://github.com/xPuls3
 // - https://gitlab.com/Puls3
 
-// Forked from RichKMLS's Old Reddit Redirect script
-// - https://github.com/RichKMLS/Old-Reddit-Redirect
-
 'use strict';
 
-const currentUrl = window.location.href;
-const newRedditUrl = 'https://new.reddit.com/';
+const currentHostname = window.location.hostname;
+const targetHostname = "new.reddit.com";
 
-if (!currentUrl.includes("new.reddit.com")) {
-
-    const newUrl = currentUrl.replace(/^https?:\/\/(www\.)?reddit.com\//, newRedditUrl);
-    window.location.replace(newUrl);
-  
+if (!currentHostname.includes("new.reddit.com")) {
+    window.location.hostname = targetHostname;
 }
