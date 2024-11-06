@@ -8,7 +8,7 @@ It works on any browser that supports user script extensions, such as [Violentmo
 This script is confirmed to be working on Reddit as of Febuary 19th of 2024.
 
 ## Downloads
-[Click To Download](https://github.com/xPuls3/New-Reddit-Redirect/raw/master/script.user.js)
+[Click To Download](https://github.com/NoahBK/New-Reddit-Redirect/raw/master/script.user.js)
 
 ## Installation
 * First, download [Violentmonkey](https://violentmonkey.github.io/get-it/).
